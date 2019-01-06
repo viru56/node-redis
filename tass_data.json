@@ -1,0 +1,91 @@
+{          
+   "id": "e9d00f93-7be9-4d84-9d26-ab9b3cab7dea",
+  "companyId": "",
+  "businessPartnerId": "",
+  "date": "2018-01-21T00:00:00.000Z",
+  "currency": "AED",
+  "grossOrNet": "n",
+  "saleorPurchase": "s",
+  "isCompanyDeferredTaxEnabled": "",
+  "isBusinessPartnerDeferredTaxEnabled": "",
+    "Items" :       
+        [  
+            
+            {          
+                "id": "1",
+               "itemCode": "",
+               "quantity": "122",
+                "unitPrice":  "7539",
+                "shippingCost": "n",
+                "itemType": "m",
+                "certificateId": ""
+           
+            },
+            {          
+                "id": "2",
+               "itemCode": "",
+               "quantity": "11",
+                "unitPrice":  "449",
+                "shippingCost": "n",
+                "itemType": "m",
+                "certificateId": ""
+           
+            },
+            {          
+                "id": "3",
+               "itemCode": "",
+               "quantity": "10",
+                "unitPrice":  "749",
+                "shippingCost": "n",
+                "itemType": "m",
+                "certificateId": ""
+           
+            }
+                 
+        ],
+    "Locations": 
+        [  
+            
+            {          
+                    "type": "SHIP_FROM",
+                    "addressLine1": "",
+                    "addressLine2": "",
+                    "addressLine3": "",
+                    "zipCode": "000",
+                    "city": "",
+                    "state": "",
+                    "county": "",
+                    "country": "AE",
+                    "isCompanyTaxRegistered": "Y",
+                    "isBusinessPartnerTaxRegistered": "",
+                    "addressId": "" 
+                
+            },
+            {          
+                     "type": "SHIP_TO",
+                     "addressLine1": "",
+                     "addressLine2": "",
+                     "addressLine3": "",
+                     "zipCode": "0000",
+                     "city": "",
+                     "state": "",
+                     "county": "",
+                     "country": "AE",
+                     "isCompanyTaxRegistered": "N",
+                     "isBusinessPartnerTaxRegistered": "",
+                     "addressId": ""
+               
+            }
+        ],
+         "BusinessPartnerExemptionDetails" :       
+        [  
+            {          
+                "locationType":"SHIP_TO",     
+                "exemptionreasoncode": "A"                  
+            },
+                                                {          
+                "locationType":"SHIP_FROM",     
+                "exemptionreasoncode": "G"                  
+            }
+        ]
+}

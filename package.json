@@ -1,0 +1,20 @@
+{
+  "name": "tax-experiment",
+  "version": "1.0.0",
+  "description": "TaxExperiment",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.wdf.sap.corp/i028960/tax-experiment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crc-32": "^1.2.0",
+    "redis": "^2.8.0",
+    "restify": "^7.2.1"
+  }
+}

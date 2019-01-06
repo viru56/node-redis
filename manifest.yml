@@ -1,0 +1,6 @@
+applications:
+- name: tax-experiment
+  memory: 2048M
+  host: taxexperimentI502306
+  domain: cfapps.us30.hana.ondemand.com
+  instances: 1
